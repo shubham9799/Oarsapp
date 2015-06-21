@@ -1,0 +1,37 @@
+[
+    {
+        "Course": "PE102A",
+        "Remark": "Backlog-Not-offer",
+        "Title": "EVENING EXERCISE"
+    },
+    {
+        "Course": "CHM102A",
+        "Remark": "Offered-Reg",
+        "Title": "GENERAL CHEMISTRY"
+    },
+    {
+        "Course": "LIF101A",
+        "Remark": "Offered-Reg",
+        "Title": "INTRODUCTION TO BIOLOGY"
+    },
+    {
+        "Course": "MTH102A",
+        "Remark": "Offered-Reg",
+        "Title": "MATHEMATICS - II"
+    },
+    {
+        "Course": "PHY101A",
+        "Remark": "Offered-Reg",
+        "Title": "PHYSICS LABORATORY"
+    },
+    {
+        "Course": "PHY102A",
+        "Remark": "Offered-Reg",
+        "Title": "PHYSICS-I"
+    },
+    {
+        "Course": "TA101A",
+        "Remark": "Offered-Reg",
+        "Title": "ENGINEERING GRAPHICS"
+    }
+]

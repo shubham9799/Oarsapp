@@ -1,0 +1,232 @@
+[
+    {
+        "course": "CHM102A(L)",
+        "day": "Monday",
+        "time": "9.00-10.00"
+    },
+    {
+        "course": "MTH102A(L)",
+        "day": "Monday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Monday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Monday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Monday",
+        "time": "11.00-12.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Monday",
+        "time": "11.00-12.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Monday",
+        "time": "12.00-01.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Monday",
+        "time": "12.00-01.00"
+    },
+    {
+        "course": "MTH102A(L)",
+        "day": "Tuesday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Tuesday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Tuesday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Tuesday",
+        "time": "11.00-12.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Tuesday",
+        "time": "11.00-12.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Tuesday",
+        "time": "12.00-01.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Tuesday",
+        "time": "12.00-01.00"
+    },
+    {
+        "course": "CHM102A(L)",
+        "day": "Wednesday",
+        "time": "9.00-10.00"
+    },
+    {
+        "course": "MTH102A(L)",
+        "day": "Wednesday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Wednesday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Wednesday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Wednesday",
+        "time": "11.00-12.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Wednesday",
+        "time": "11.00-12.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Wednesday",
+        "time": "12.00-01.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Wednesday",
+        "time": "12.00-01.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Thursday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Thursday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Thursday",
+        "time": "11.00-12.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Thursday",
+        "time": "11.00-12.00"
+    },
+    {
+        "course": "TA101A(P)",
+        "day": "Thursday",
+        "time": "12.00-01.00"
+    },
+    {
+        "course": "PHY101A(P)",
+        "day": "Thursday",
+        "time": "12.00-01.00"
+    },
+    {
+        "course": "CHM102A(L)",
+        "day": "Friday",
+        "time": "9.00-10.00"
+    },
+    {
+        "course": "MTH102A(L)",
+        "day": "Friday",
+        "time": "10.00-11.00"
+    },
+    {
+        "course": "CHM102A(T)",
+        "day": "Monday",
+        "time": "2.00-3.00"
+    },
+    {
+        "course": "PHY102A(L)",
+        "day": "Monday",
+        "time": "3.00-4.00"
+    },
+    {
+        "course": "MTH102A(T)",
+        "day": "Monday",
+        "time": "4.00-5.00"
+    },
+    {
+        "course": "LIF101A(L)",
+        "day": "Tuesday",
+        "time": "2.00-3.00"
+    },
+    {
+        "course": "TA101A(L)",
+        "day": "Tuesday",
+        "time": "3.00-4.00"
+    },
+    {
+        "course": "CHM102A(T)",
+        "day": "Tuesday",
+        "time": "4.00-5.00"
+    },
+    {
+        "course": "CHM102A(T)",
+        "day": "Wednesday",
+        "time": "2.00-3.00"
+    },
+    {
+        "course": "PHY102A(L)",
+        "day": "Wednesday",
+        "time": "3.00-4.00"
+    },
+    {
+        "course": "MTH102A(T)",
+        "day": "Wednesday",
+        "time": "4.00-5.00"
+    },
+    {
+        "course": "TA101A(L)",
+        "day": "Thursday",
+        "time": "2.00-3.00"
+    },
+    {
+        "course": "PHY102A(T)",
+        "day": "Thursday",
+        "time": "3.00-4.00"
+    },
+    {
+        "course": "MTH102A(T)",
+        "day": "Thursday",
+        "time": "4.00-5.00"
+    },
+    {
+        "course": "LIF101A(L)",
+        "day": "Friday",
+        "time": "2.00-3.00"
+    },
+    {
+        "course": "PHY102A(L)",
+        "day": "Friday",
+        "time": "3.00-4.00"
+    },
+    {
+        "course": "MTH102A(T)",
+        "day": "Friday",
+        "time": "4.00-5.00"
+    }
+]

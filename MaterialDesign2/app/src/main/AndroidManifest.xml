@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell1.materialdesign" >
+    android:screenOrientation="portrait"
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OarsClass"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".course"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".timetable"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".course_offline"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".Timetable_offline"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".Oars_login"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".Course_calendar"
+            android:label="@string/title_activity_course_calendar"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".Timetable_calendar"
+            android:label="@string/title_activity_timetable_calendar"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".Del_timetable"
+            android:label="@string/title_activity_del_timetable"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".Del_course"
+            android:label="@string/title_activity_del_course"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".Course_Search"
+            android:label="@string/title_activity_course__search"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".advanced_course_search"
+            android:label="@string/title_activity_advanced_course_search"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".search_result"
+            android:label="@string/title_activity_search_result"
+            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".help"
+            android:label="@string/title_activity_help" >
+        </activity>
+    </application>
+
+</manifest>

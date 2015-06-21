@@ -1,0 +1,44 @@
+[
+    {
+        "grade": "A",
+        "Course": "CHEMISTRY LABORATORY",
+        "credit": "3",
+        "Type": "COMPULSORY",
+        "Title": "CHM101A"
+    },
+    {
+        "grade": "A",
+        "Course": "FUNDAMENTAL OF COMPUTING",
+        "credit": "14",
+        "Type": "COMPULSORY",
+        "Title": "ESC101A"
+    },
+    {
+        "grade": "B",
+        "Course": "MATHEMATICS I",
+        "credit": "11",
+        "Type": "COMPULSORY",
+        "Title": "MTH101A"
+    },
+    {
+        "grade": "S",
+        "Course": "MORNING EXERCISE",
+        "credit": "3",
+        "Type": "COMPULSORY",
+        "Title": "PE101A"
+    },
+    {
+        "grade": "A",
+        "Course": "INTRODUCTION TO LOGIC",
+        "credit": "11",
+        "Type": "HSS-1",
+        "Title": "PHI142A"
+    },
+    {
+        "grade": "B",
+        "Course": "PHYSICS-II",
+        "credit": "11",
+        "Type": "COMPULSORY",
+        "Title": "PHY103A"
+    }
+]

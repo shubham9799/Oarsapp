@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:background="#263238"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:background="#263238"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_below="@+id/app_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView7"
+            android:layout_alignRight="@+id/imageView7"
+            android:layout_centerVertical="true"
+            android:text="   Your Login Details Here:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/editText4"
+                android:layout_alignLeft="@+id/imageView7"
+                android:layout_alignStart="@+id/imageView7"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_action_email" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageView7"
+                android:layout_alignLeft="@+id/editText3"
+                android:layout_alignRight="@+id/imageView7"
+                android:layout_alignStart="@+id/editText3"
+                android:layout_below="@+id/imageView7"
+                android:layout_marginLeft="12dp"
+                android:ems="10"
+                android:hint="User Name:" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText3"
+
+                android:layout_toLeftOf="@+id/editText3"
+                android:layout_toStartOf="@+id/editText3"
+                android:src="@drawable/ic_action_screen_locked_to_landscape" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageView7"
+                android:layout_alignRight="@+id/imageView7"
+                android:layout_below="@+id/imageView7"
+                android:ems="10"
+                android:hint="Password:"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
+            android:onClick="click"
+            android:text="Log In"
+            android:ems="10"/>
+
+    </LinearLayout>
+
+</ScrollView>
