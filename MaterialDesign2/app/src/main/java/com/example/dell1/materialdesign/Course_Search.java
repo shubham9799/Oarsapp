@@ -97,12 +97,9 @@ public class Course_Search extends ActionBarActivity {
 
     }
 
-    public  void Delete(View view){
-        final Animation animation = AnimationUtils.loadAnimation(this, R.anim.anim_alpha);
-        view.startAnimation(animation);
-        Toast.makeText(Course_Search.this,
-                "Delete", Toast.LENGTH_LONG).show();
+    public void Delete(View view) {
         helper.deleteAll();
+        Message.message(this, "Success");
     }
 
     public void Insert(View view) {
@@ -131,16 +128,15 @@ public class Course_Search extends ActionBarActivity {
                 String t_time = json.getString(TAG_T_TIME);
                 long id = helper.insertData(Course, Title, pre, department, notes, instructor, email, units, lec_day, lec_time, lab_day, lab_time, t_day, t_time);
                 if (id < 0) {
-                    Message.message(this, "UNSUUCESSFUL");
+                    //   Message.message(this, "UNSUUCESSFUL");
                 } else {
-                    Message.message(this, "SUCCESSFUL");
+                    // Message.message(this, "SUCCESSFUL");
                 }
                 json = contactList.getJSONObject(k);
                 // HashMap<String, String> contact = new HashMap<String, String>();
             }
-                Message.message(this,"SUCCESSFULL");
-        }
-        catch (JSONException e) {
+            Message.message(this, "Successful");
+        } catch (JSONException e) {
             e.printStackTrace();
         }
     }
@@ -228,10 +224,10 @@ public class Course_Search extends ActionBarActivity {
                     String t_time = json.getString(TAG_T_TIME);
 
                     if (pre == "") {
-                        pre="none";
+                        pre = "none";
                     }
                     if (notes == " ") {
-                        notes="none";
+                        notes = "none";
                     }
 
 
@@ -279,10 +275,10 @@ public class Course_Search extends ActionBarActivity {
                 String t_day = json.getString(TAG_T_DAY);
                 String t_time = json.getString(TAG_T_TIME);
                 if (pre == "") {
-                    pre="none";
+                    pre = "none";
                 }
                 if (notes == "") {
-                    notes="none";
+                    notes = "none";
                 }
 
      /*           long id = helper.insertData(Course, Title, pre, department, notes, instructor, email, units, lec_day, lec_time, lab_day, lab_time, t_day, t_time);
@@ -365,7 +361,7 @@ public class Course_Search extends ActionBarActivity {
                 contact.put(TAG_MID, mid);
                 contact.put(TAG_END, end);
                 contactList.add(contact);*/
-           //     Insert();
+                //     Insert();
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (JSONException e) {

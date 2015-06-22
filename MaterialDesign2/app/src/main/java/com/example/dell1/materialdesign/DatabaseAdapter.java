@@ -44,9 +44,9 @@ public class DatabaseAdapter extends ListActivity {
         String sql = "delete from " + Helper.TABLE_NAME;
         try {
             db.execSQL(sql);
-            Message.message(this,"SUCCESSFUL");
+           // Message.message(this,"SUCCESSFUL");
         } catch (SQLException e) {
-            Message.message(this,"UNSUCCESSFUL");
+         //   Message.message(this,"UNSUCCESSFUL");
        //     setTitle("exception");
         }
        // db.delete(Helper.TABLE_NAME,null, null);
