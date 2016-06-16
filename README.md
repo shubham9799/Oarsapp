@@ -1,8 +1,6 @@
 # Oarsapp
-Multipurpose android app for IITK students
+Academics android app for IITK students
 
-This app is for IITK students. They can sign in on their Oars profile through this app and can generate exam schedule, timetable, transcript. You can even save your tmetable in your calendar app. 
+This app takes data from the http://oars.cc.iitk.ac.in/ (website containing all the academic data of students of IIT Kanpur) and brings them to users with extra features of adding notifications on academic events and an advance course search system where users can search for course details by serch type as date, timings, professors, etc.  Code for all these features is kept in java files folder and in layouts folder.
 
-For scrapping and mining we have used python libraries like BeautifulSou, mechanize, urllib, etc.
-
-Right now app is not completed. It still has to be linked with php links. 
+We used Mechanize and BeautifulSoup library of python for scrapping data from the website http://oars.cc.iitk.ac.in/.The python scripts are in in Python Files folder.
